@@ -1,9 +1,9 @@
 <template>
   <div>
       <ul class="nav nav-pills">
-        <li role="presentation" class="active"><router-link to="/">Home</router-link></li>
-        <li role="presentation"><router-link to="/portfolio">Portfolio</router-link></li>
-        <li role="presentation"><router-link to="/about">About</router-link></li>
+        <router-link to="/" tag="li" active-class="active" exact><a>Home</a></router-link></li>
+        <router-link to="/portfolio" active-class="active" tag="li"><a>Portfolio</a></router-link></li>
+        <router-link to="/about" active-class="active" tag="li"><a>About</a></router-link></li>
       </ul>
   </div>
 </template>
